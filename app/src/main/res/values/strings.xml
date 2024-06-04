@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">iPaws</string>
+    <string name="login_cat">login_cat</string>
+    <string name="ipaws_logo">ipaws_logo</string>
+    <string name="welcome">welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>
