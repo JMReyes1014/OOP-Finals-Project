@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         tracker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Construction.class);
+                Intent intent = new Intent(getApplicationContext(), Tracker.class);
                 startActivity(intent);
                 finish();
             }
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         maps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Construction.class);
+                Intent intent = new Intent(getApplicationContext(), Maps.class);
                 startActivity(intent);
                 finish();
             }
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         connect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Construction.class);
+                Intent intent = new Intent(getApplicationContext(), connect.class);
                 startActivity(intent);
                 finish();
             }
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         bot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Construction.class);
+                Intent intent = new Intent(getApplicationContext(), Bot.class);
                 startActivity(intent);
                 finish();
             }
